@@ -100,7 +100,7 @@ echo "$ vi ~/.gnupg/gpg.conf"
 sleep 2
 echo "In VI mode, write this to the file:"
 sleep 1.5
-echo "use agent
+echo "use-agent
       pinentry-mode loopback
       "
 sleep 2
