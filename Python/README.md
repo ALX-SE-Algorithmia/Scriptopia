@@ -6,4 +6,4 @@
 This directory contains Python scripts, and also their functions.
 
 ### Python Scripts In This Directory
-1. A Python Script explaining immutability of strings (<a href="">pystrings.py</a>)
+1. A Python Script explaining immutability of strings (<a href="https://github.com/ALX-SE-Algorithmia/Scriptopia/blob/main/Python/pystrings.py">pystrings.py</a>)
