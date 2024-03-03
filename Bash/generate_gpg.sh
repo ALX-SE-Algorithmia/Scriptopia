@@ -23,7 +23,7 @@ echo ""
 # Installing the GPG key generator
 echo "$ sudo apt-get install gpg"
 sleep 2
-echo "Running command"
+echo "Installing the GPG software..."
 sudo apt-get install gpg    # InstalLs the GPG software onto your CLI
 sleep 2
 echo ""
@@ -31,7 +31,8 @@ echo ""
 # Check the version of GPG key generator
 echo "$ gpg --version"
 sleep 2
-echo "Running command"
+echo "Checking your GPG version"
+sleep 2
 gpg --version
 sleep 2
 echo ""
@@ -51,15 +52,19 @@ echo ""
 echo "Enter your Real Name (As it displays on GitHub i.e. your GitHub Username), and then, the email address you use with GitHub."
 sleep 2.5
 echo ""
+echo ""
+sleep 2
+echo "Generating your gpg key..."
 echo "$ gpg --full-generate-key"
 sleep 2
 echo "Running command"
 gpg --full-generate-key
 
-# Display your GPG keys and ids in a lng format
+# Display your GPG keys and ids in a long format
+sleep 5
 echo "$ gpg --list-secret-keys --keyid-format=long"
 sleep 2
-echo "Running command"
+echo "Displaying your GPG key and IDs in a format..."
 gpg --list-secret-keys --keyid-format=long
 echo ""
 sleep 2
