@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Author: Dohou Daniel Favour
-# Created: 9:14PM Friday, 3rd November 2023
+# Author: Algorithmia SE
+# Created: 9:14 PM Friday, 3rd November 2023
 
 # Create a variable to store the user's username
 current_user=$(whoami)
@@ -11,7 +11,7 @@ sleep 2
 # Print message
 echo "I am a Bash script that will help you to create a GPG key, to secure, and verify your GitHub commit messages."
 sleep 2
-echo "All you need to do is to response to the prompts, while I run!"
+echo "All you need to do is to respond to the prompts, while I run!"
 sleep 2
 echo ""
 echo "I will be displaying the command being run, before actually running the command."
@@ -24,7 +24,7 @@ echo ""
 echo "$ sudo apt-get install gpg"
 sleep 2
 echo "Running command"
-sudo apt-get install gpg
+sudo apt-get install gpg    # InstalLs the GPG software onto your CLI
 sleep 2
 echo ""
 
@@ -37,8 +37,10 @@ sleep 2
 echo ""
 
 # Generate your GPG key
-echo "The following command generates the GPG key pair."
+echo "The following command generates the GPG key pair: the public and private keys."
+sleep 2
 echo "When prompted, please do the following:"
+sleep 2
 echo "First prompt: RSA and RSA (default) - Enter 1"
 sleep 1.5
 echo "Second prompt: Enter 3072"
@@ -46,7 +48,7 @@ sleep 1.5
 echo "Third prompt: Specify how long you want the GPG key to last. Then enter, Yes (y) or No (N)."
 sleep 2.5
 echo ""
-echo "Enter your Real Name (As it displays on GitHub), and then, the email address you use with GitHub."
+echo "Enter your Real Name (As it displays on GitHub i.e. your GitHub Username), and then, the email address you use with GitHub."
 sleep 2.5
 echo ""
 echo "$ gpg --full-generate-key"
